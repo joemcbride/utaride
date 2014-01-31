@@ -1,0 +1,6 @@
+[
+  "-workspace", "src/utaride.xcworkspace",
+  "-scheme", "utarideTests",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator"
+]
