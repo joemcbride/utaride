@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)nextView:(id)sender;
 
 @end
 
@@ -26,4 +27,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if([segue.identifier isEqualToString:@"NextView"]){
+    }
+}
+
+- (IBAction)nextView:(id)sender {
+}
 @end

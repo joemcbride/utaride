@@ -19,3 +19,7 @@ Run guard to have the unit tests auto-run on file changes.
 
     $ bundle install
     $ bundle exec guard
+
+License
+==========
+[MIT License](LICENSE.md)
