@@ -12,7 +12,6 @@ SPEC_BEGIN(tests)
 
 describe(@"something", ^{
    it(@"should do something", ^{
-       [[@"it" should] equal:@"it"];
    });
 });
 
